@@ -724,7 +724,7 @@ export default function Home() {
         <div className="bg-[url('/borderdash.svg')] w-[95%] md:w-[100%] mx-auto my-2 md:m-2.5 md:ml-12 p-6 md:p-12 pt-8 flex flex-col z-10 bg-zinc-950/70 md:bg-zinc-950/10">
           <div className='flex flex-col font-stretch'>
             <div className='flex flex-row items-center'>
-                <Link href='/ludicapli'>
+                <Link href='/'>
                   <div className='heartbeat font-tb pt-4 font-black text-[10vw] md:text-[4.6vw] uppercase fade-main-color inline-block text-transparent bg-clip-text w-fit max-h-32 cursor-pointer'>rémi</div>
                 </Link>
                 <div className='mt-5 ml-12 shake-horizontal flex flex-row items-center cursor-pointer'>
