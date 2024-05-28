@@ -727,11 +727,11 @@ export default function Home() {
                 <Link href='/'>
                   <div className='heartbeat font-tb pt-4 font-black text-[10vw] md:text-[4.6vw] uppercase fade-main-color inline-block text-transparent bg-clip-text w-fit max-h-32 cursor-pointer'>rémi</div>
                 </Link>
-                <div className='mt-5 ml-12 shake-horizontal flex flex-row items-center cursor-pointer'>
-                  <IoMdArrowRoundBack className='mr-2 font-tr'/>
-                  {langLines.aboutLines.discover}
+                // <div className='mt-5 ml-12 shake-horizontal flex flex-row items-center cursor-pointer'>
+                //  <IoMdArrowRoundBack className='mr-2 font-tr'/>
+                //  {langLines.aboutLines.discover}
                   
-                </div>
+                // </div>
             </div>
             <div className='font-tb mb-4 font-outline-2 leading-[0.80] text-zinc-950 text-[10vw] md:text-[4.6vw] uppercase overflow-hidden pt-1 mt-0b border-0 border-b-2 border-zinc-600 w-fit'>
               front end
