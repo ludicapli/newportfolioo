@@ -1,0 +1,27 @@
+{
+  "name": "portfolio2023",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@videsk/tailwind-random-color": "^0.2.0-beta",
+    "framer-motion": "^10.16.4",
+    "next": "14.0.0",
+    "next-page-transitions": "^1.0.0-beta.2",
+    "react": "18.2.0",
+    "react-animations": "^1.0.0",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
