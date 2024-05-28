@@ -764,7 +764,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='flex justify-center md:justify-end p-10'>
-                  <a href="mailto:ludicapli@gmail.com" className='group ease-out duration-300 hover:shadow-[0_30px_15px_-15px_rgba(0,0,0,0.8)] hover:-translate-y-2 relative flex justify-center items-center w-fit px-5 py-3 border-0 rounded-lg fade-main-color uppercase tracking-wider overflow-hidden'>
+                  <a onClick={() => openInNewTab("./cv")} className='group ease-out duration-300 hover:shadow-[0_30px_15px_-15px_rgba(0,0,0,0.8)] hover:-translate-y-2 relative flex justify-center items-center w-fit px-5 py-3 border-0 rounded-lg fade-main-color uppercase tracking-wider overflow-hidden'>
                     <div className='rounded-full bg-white/20 w-fit p-1 mr-4'>
                       <PiPaperPlaneTiltFill className='font-medium text-xl ease-out duration-300 group-hover:rotate-45'/>  
                     </div>
@@ -871,7 +871,7 @@ export default function Home() {
               </div>
 
               <div className='flex justify-center md:justify-end p-10 '>
-                  <a href="mailto:ludicapli@gmail.com" className='group ease-out hover:shadow-[0_30px_15px_-15px_rgba(0,0,0,0.8)] duration-300 hover:-translate-y-2 relative flex justify-center items-center w-fit px-5 py-3 border-0 rounded-lg fade-main-color uppercase tracking-wider overflow-hidden'>
+                  <a onClick={() => openInNewTab("./cv")} className='group ease-out hover:shadow-[0_30px_15px_-15px_rgba(0,0,0,0.8)] duration-300 hover:-translate-y-2 relative flex justify-center items-center w-fit px-5 py-3 border-0 rounded-lg fade-main-color uppercase tracking-wider overflow-hidden'>
                     <div className='rounded-full bg-white/20 w-fit p-1 mr-4'>
                       <PiPaperPlaneTiltFill className='font-medium text-xl ease-out duration-300 group-hover:rotate-45'/>  
                     </div>
